@@ -57,3 +57,26 @@ let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 
 console.log("Authentication Status:", authenticationStatus);
+
+// Tarea practica
+let employeeType = "member-subscriber";
+let serviceAccess;
+
+switch (employeeType) {
+    case "employee":
+        serviceAccess = "Está autorizado a tener acceso a los Servicios Dietéticos.";
+        break;
+    case "member-subscriber":
+        serviceAccess = "Está autorizado a tener acceso a los Servicios Dietéticos y a interacción uno a uno con un dietista.";
+        break;
+    case "subscriber":
+        serviceAccess = "Está autorizado a tener acceso parcial para facilitar los Servicios Dietéticos únicamente.";
+        break;
+    case "no-subscriber":
+        serviceAccess = "Necesita inscribirse o al menos suscribirse primero para poder acceder a esta instalación.";
+        break;
+    default:
+        serviceAccess = "No contratado";
+}
+
+console.log("Tipo de empleado: " + employeeType + " Acceso a: " + serviceAccess);
