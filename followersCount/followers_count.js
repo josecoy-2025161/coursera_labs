@@ -17,3 +17,9 @@ function checkCountValue() {
     alert("Tu publicacion de Instagram gano 20 seguidores! Sigue asi!");
   }
 }
+
+function resetCount() {
+    count = 0;
+    displayCount();
+    alert("El conteo de seguidores ha sido restablecido.");
+}
