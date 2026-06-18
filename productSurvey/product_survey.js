@@ -12,6 +12,7 @@ function submitFeedback() {
     const designation = document.getElementById('designation').value;
     const productType = document.getElementById('productType').value;
     const feedback = document.getElementById('feedbackText').value;
+    const experince = document.getElementById('userText').value;
 
     // Asignamos los valores al contenedor de resultados
     document.getElementById('userName').innerHTML = username;
@@ -21,6 +22,7 @@ function submitFeedback() {
     document.getElementById('userDesignation').innerHTML = designation;
     document.getElementById('userProductChoice').innerHTML = productType;
     document.getElementById('userFeedback').innerHTML = feedback;
+    document.getElementById('userExperince').innerHTML = experince;
 
     // Mostramos el contenedor que estaba oculto
     document.getElementById('userInfo').style.display = 'block';
