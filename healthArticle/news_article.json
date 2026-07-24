@@ -1,0 +1,36 @@
+{
+    "news_articles": [
+        {
+            "headline": "Descubren nueva especie marina en las profundidades del Pacífico",
+            "summary": "Un equipo internacional de biólogos marinos ha hallado una especie de medusa bioluminiscente que podría tener aplicaciones médicas revolucionarias.",
+            "author": "Laura Méndez",
+            "publish_date": "2026-07-23T08:30:00Z",
+            "category": "Ciencia",
+            "tags": ["biología", "océanos", "descubrimiento"]
+        },
+        {
+            "headline": "El Banco Central anuncia una reducción histórica en las tasas de interés",
+            "summary": "En un esfuerzo por estimular la economía local, las tasas de interés se han reducido en un punto porcentual, marcando el nivel más bajo en la última década.",
+            "author": "Carlos Rivera",
+            "publish_date": "2026-07-22T14:15:00Z",
+            "category": "Economía",
+            "tags": ["finanzas", "mercados", "tasas de interés"]
+        },
+        {
+            "headline": "Inauguran el primer tren bala que conecta tres países sudamericanos",
+            "summary": "El megaproyecto de infraestructura finalmente abre sus puertas al público, prometiendo reducir los tiempos de viaje a la mitad y fomentar el comercio regional.",
+            "author": "Sofía Castro",
+            "publish_date": "2026-07-23T10:00:00Z",
+            "category": "Infraestructura",
+            "tags": ["transporte", "innovación", "Latinoamérica"]
+        },
+        {
+            "headline": "Película independiente arrasa en el Festival Internacional de Cine",
+            "summary": "La obra de un director novato logró llevarse el galardón principal, sorprendiendo a la crítica con su narrativa visual y un presupuesto mínimo.",
+            "author": "Diego Torres",
+            "publish_date": "2026-07-21T21:45:00Z",
+            "category": "Entretenimiento",
+            "tags": ["cine", "arte", "premios"]
+        }
+    ]
+}
